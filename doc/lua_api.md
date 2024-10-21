@@ -9097,10 +9097,10 @@ Player properties need to be saved manually.
     hp_max = 10,
     -- Defines the maximum and default HP of the entity
     -- For Lua entities the maximum is not enforced.
-    -- For players this defaults to `minetest.PLAYER_MAX_HP_DEFAULT`.
+    -- For players this defaults to `minetest.PLAYER_MAX_HP_DEFAULT` (20, currently).
 
     breath_max = 0,
-    -- For players only. Defaults to `minetest.PLAYER_MAX_BREATH_DEFAULT`.
+    -- For players only. Defaults to `minetest.PLAYER_MAX_BREATH_DEFAULT` (10, currently).
 
     zoom_fov = 0.0,
     -- For players only. Zoom FOV in degrees.
